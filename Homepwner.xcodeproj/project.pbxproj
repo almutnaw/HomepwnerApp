@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E62B6C0F1CCFD627008E2D7F /* ItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E62B6C0E1CCFD627008E2D7F /* ItemCell.swift */; };
 		E63136571CBD619E00C76B86 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E63136561CBD619E00C76B86 /* AppDelegate.swift */; };
 		E631365C1CBD619E00C76B86 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E631365A1CBD619E00C76B86 /* Main.storyboard */; };
 		E631365E1CBD619E00C76B86 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E631365D1CBD619E00C76B86 /* Assets.xcassets */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E62B6C0E1CCFD627008E2D7F /* ItemCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemCell.swift; sourceTree = "<group>"; };
 		E63136531CBD619E00C76B86 /* Homepwner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Homepwner.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E63136561CBD619E00C76B86 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E631365B1CBD619E00C76B86 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -62,6 +64,7 @@
 				E63136681CBD62F700C76B86 /* ItemsViewController.swift */,
 				E631366A1CBD650900C76B86 /* Item.swift */,
 				E631366C1CBD6B9500C76B86 /* ItemStore.swift */,
+				E62B6C0E1CCFD627008E2D7F /* ItemCell.swift */,
 				E631365A1CBD619E00C76B86 /* Main.storyboard */,
 				E631365D1CBD619E00C76B86 /* Assets.xcassets */,
 				E631365F1CBD619E00C76B86 /* LaunchScreen.storyboard */,
@@ -145,6 +148,7 @@
 				E631366B1CBD650900C76B86 /* Item.swift in Sources */,
 				E631366D1CBD6B9500C76B86 /* ItemStore.swift in Sources */,
 				E63136571CBD619E00C76B86 /* AppDelegate.swift in Sources */,
+				E62B6C0F1CCFD627008E2D7F /* ItemCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -292,6 +296,7 @@
 				E63136671CBD619E00C76B86 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
